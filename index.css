@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    text-align: center;
+    background: #1B244A;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: red;
+    width: 120px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-shadow: orange 2px 0;
+}
+
+#guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: red;
+    width: 120px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-shadow: orange 2px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button {
+    background: none;
+    color: #9AABD8;
+    border-radius: 2px;
+    border: solid #9AABD8;
+    margin-top: 15px;
+}
+
+.column {
+    font-size: 30px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}

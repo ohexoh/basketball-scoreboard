@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="column">HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button id="home-point-1" onclick="homePointButton1()">+
+                    1</button>
+                <button id="home-point-2" onclick="homePointButton2()">+
+                    2</button>
+                <button id="home-point-3" onclick="homePointButton3()">+
+                    3</button>
+            </div>
+            <div>
+                <h3 class="column">GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <button id="guest-point-1" onclick="guestPointButton1()">+
+                    1</button>
+                <button id="guest-point-2" onclick="guestPointButton2()">+
+                    2</button>
+                <button id="guest-point-3" onclick="guestPointButton3()">+ 3
+                </button>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
